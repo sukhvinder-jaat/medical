@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ff_Montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-3xl: 58px;
+    --fs-2xl: 40px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-ss: 12px;
+    /* color */
+    --fc-lignt_orange: #FC724D;
+    --fc-white: #ffffff;
+    --fc-blue: #0061FF;
+    --fc-voliate: #252B42;
+    --fc-darksilver: #737373;
+    --color-blue_dark: #26335D;
+}
+
+/* color */
+.fc_volate {
+    color: var(--fc-voliate) !important;
+}
+
+.bg_white {
+    background-color: var(--fc-white) !important;
+}
+
+.fc_blue {
+    color: var(--fc-blue) !important;
+}
+
+.fc_dark_silver {
+    color: var(--fc-darksilver) !important;
+}
+
+.fc_orange {
+    color: var(--fc-lignt_orange) !important;
+}
+
+.bg_lignt_orange {
+    background-color: var(--fc-lignt_orange);
+}
+
+.bg_blue {
+    background-color: var(--fc-blue);
+}
+
+.bg_dark {
+    background-color: var(--color-blue_dark);
+}
+
+.fc_white {
+    color: var(--fc-white) !important;
+}
+
+.border_lignt_orange {
+    border: 2px solid var(--fc-lignt_orange);
+}
+
+/* font_size */
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+@media (max-width:1200px) {
+    .bg_blue_xl {
+        background-color: var(--fc-blue);
+    }
+}
+
+/* root Media */
+@media (max-width:992px) {
+    :root {
+        /* font_size */
+        --fs-3xl: 58px;
+        --fs-2xl: 40px;
+        --fs-xl: 24px;
+        --fs-lg: 20px;
+        --fs-md: 16px;
+        --fs-sm: 14px;
+        --fs-ss: 12px;
+    }
+}
+
+/* root Media */
+@media (max-width:576px) {
+    :root {
+        /* font_size */
+        --fs-3xl: 38px;
+        --fs-2xl: 30px;
+        --fs-xl: 24px;
+        --fs-lg: 20px;
+        --fs-md: 16px;
+        --fs-sm: 14px;
+        --fs-ss: 12px;
+    }
+
+}

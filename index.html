@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medical</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- root link -->
+    <link rel="stylesheet" href="/assets/css/root.css">
+    <!-- logo link -->
+    <link rel="icon" href="/assets/img/png/doctor.png">
+</head>
+
+<body>
+    <div class="header_bg_xl_min bg_blue_xl img-fluid">
+        <nav class="pt-4 pb-4 ps-sm-5 pe-lg-5">
+            <div class="container pe-lg-5">
+                <div class="d-flex justify-content-between align-items-center pe-lg-5">
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center pe-lg-5">
+                            <a href="#" class="ff_Montserrat fw_700 fs_xl d-no ne d-sm -block fc_white ">Medical
+                                Active</a>
+                        </div>
+                        <ul class="d-flex mb-0" id="show">
+                            <li><a href="#" class="fw_700 ff_Montserrat fs_sm fc_white ">Home</a></li>
+                            <li><a href="#" class="fw_700 ff_Montserrat fs_sm fc_white  ps-xl-4">Product</a></li>
+                            <li><a href="#" class="fw_700 ff_Montserrat fs_sm fc_white  ps-xl-4">Pricing</a></li>
+                            <li><a href="#" class="fw_700 ff_Montserrat fs_sm fc_white  ps-xl-4">Contact</a></li>
+                            <li><a href="#" class="fw_700 d-xl-none fs_sm ff_Montserrat fc_white  pe-xl-5">Login</a>
+                            </li>
+                            <li><a href="#"
+                                    class="fw_700 ff_Montserrat fc_white  nav_button_padding radius_5 nav_button_padding_xl d-xl-none bg_blue bg_lignt_orange d-flex align-items-center">JOIN
+                                    US <img class="h-100 ps-2" src="/assets/img/png/rignt_arrow.png" alt="right"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="d-flex align-items-center mb-0 pe-5" id="show">
+                        <li><a href="#" class="fw_700 fs_sm ff_Montserrat fc_white  pe-xl-5">Login</a></li>
+                        <li><a href="#"
+                                class="fw_700 ff_Montserrat fs_sm fc_white  nav_button_padding radius_5   fs_sm bg_lignt_orange d-flex align-items-center">JOIN
+                                US <img class="h-100 ps-2" src="/assets/img/png/rignt_arrow.png" alt="right arrow"></a>
+                        </li>
+                    </ul>
+                    <span class="d-flex flex-column d-xl-none" onclick="navshow()">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!-- head -->
+        <div class="container">
+            <div class="row flex-xl-row flex-column ">
+                <div
+                    class="col-xl-6 col-12 d-flex flex-column pt-5 pt-xl-0 pb-5 pb-xl-0 align-items-xl-start align-items-center text-center text-xl-start justify-content-center">
+                    <p class="fw_700 ff_Montserrat fs_md   fc_white ">Join Us</p>
+                    <p class="fw_700 ff_Montserrat fs_3xl fc_white ">Meet the Best Doctors</p>
+                    <p class="fw_400 ff_Montserrat fs_lg fc_white  mx_500_xl_min">We are always fully focused on helping
+                        your
+                        child
+                        and you</p>
+                    <div
+                        class="d-flex justify-content-xl-start flex-column flex-sm-row align-items-center justify-content-center">
+                        <a class="fc_white fw_700 fs_sm ff_Montserrat bg_lignt_orange mx_200 d-flex justify-content-center nav_button_padding radius_5 me-sm-3 mb-4 mb-sm-0"
+                            href="#">Get Quote Now</a>
+                        <a class="fc_white fw_700 fs_sm ff_Montserrat border_lignt_orange mx_200 d-flex justify-content-center nav_button_padding radius_5"
+                            href="#">Get Quote Now</a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-12 d-flex justify-content-center"><img class="w-100"
+                        src="/assets/img/png/doctor.png" alt="doctor"></div>
+            </div>
+        </div>
+    </div>
+    <!-- hero -->
+    <div class="container pt-sm-5 pb-5">
+        <div class="row align-items-center pt-lg-5 pb-5 justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 d-flex justify-content-center pt-5 align-items-center "><img
+                    class="img-fluid" src="/assets/img/png/hooli_1.png" alt="image"></div>
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 d-flex justify-content-center pt-5 align-items-center "><img
+                    class="img-fluid" src="/assets/img/png/lya_2.png" alt="image"></div>
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 d-flex justify-content-center pt-3 align-items-center "><img
+                    class="img-fluid" src="/assets/img/png/photo_3.png" alt="image"></div>
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 d-flex justify-content-center pt-5 align-items-center "><img
+                    class="img-fluid" src="/assets/img/png/strip_4.png" alt="image"></div>
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 d-flex justify-content-center pt-5 align-items-center "><img
+                    class="img-fluid" src="/assets/img/png/aws_5.png" alt="image"></div>
+            <div class="col-12 col-sm-6 col-lg-3 col-xl-2 d-flex justify-content-center pt-5 align-items-center "><img
+                    class="img-fluid" src="/assets/img/png/reddit_6.png" alt="image"></div>
+        </div>
+    </div>
+    <!-- Our Department -->
+    <div class="container">
+        <div class="row flex-column flex-xl-row pb-5 pt-5 mt-5">
+            <div
+                class="col-xl-6 col-12 d-flex flex-column justify-content-center align-items-center pb-5 pb-xl-0 mb-5 align-items-xl-start">
+                <hr class=" our_line">
+                <p class="fc_volate ff_Montserrat fw_700 fs_2xl">Our Department </p>
+                <p class="fc_dark_silver fs_sm ff_Montserrat fw_400 fs_sm mx_345 text-center text-xl-start pb-5">
+                    Problems
+                    trying to resolve the
+                    conflict
+                    between
+                    the two major realms of Classical physics:
+                    Newtonian mechanics</p>
+                <a class="ff_Montserrat fw_700 fc_orange" href="#">Learn More <img
+                        src="/assets/img/png/orange_arrow.png" alt="orange_arrow"></a>
+            </div>
+            <div class="col-xl-6 col-12">
+                <div class="row align-items-center flex-row">
+                    <div class="col-md-6 col-12">
+                        <div class="care_box_shadow p-4 care_box ">
+                            <div class="heart_box d-flex justify-content-center align-items-center"><img
+                                    class="img-fluid" src="/assets/img/png/heart.png" alt="heart"></div>
+                            <p class="fc_volate fw_700 ff_Montserrat fs_md">Cancer Care</p>
+                            <hr class="care_box_hr">
+                            <p class="fc_dark_silver fs_sm ff_Montserrat fw_400 fs_sm mx_170_md ">The gradual
+                                accumulation of
+                                information about</p>
+                        </div>
+                        <div class="care_box_shadow p-4 care_box mt-3">
+                            <div class="heart_box d-flex justify-content-center align-items-center"><img
+                                    class="img-fluid" src="/assets/img/png/snack.png" alt="snack"></div>
+                            <p class="fc_volate fw_700 ff_Montserrat fs_md mx_160_md">Online Appoinment</p>
+                            <hr class="care_box_hr">
+                            <p class="fc_dark_silver fs_sm ff_Montserrat fw_400 fs_sm mx_170_md mb-0">The gradual
+                                accumulation of
+                                information about</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 p-md-4">
+                        <div class="care_box_shadow p-4 care_box">
+                            <div class="heart_box d-flex justify-content-center align-items-center"><img
+                                    class="img-fluid" src="/assets/img/png/board.png" alt="board"></div>
+                            <p class="fc_volate fw_700 ff_Montserrat fs_md">Book now</p>
+                            <hr class="care_box_hr">
+                            <p class="fc_dark_silver fs_sm ff_Montserrat fw_400 fs_sm mx_170_md ">The gradual
+                                accumulation of
+                                information about</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- white cot doctor section -->
+        <div class="mt-5 pt-5 pb-5">
+            <div class="row mt-5">
+                <div class="col-12 col-lg-6 d-flex justify-content-center"><img class="img-fluid"
+                        src="/assets/img/png/white_cot_girl.png" alt="white_cot_girl"></div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center pt-lg-0 pt-4">
+                    <div class=" d-flex flex-column justify-content-center align-items-lg-start align-items-center">
+                        <hr class=" our_line">
+                        <p class="fc_volate ff_Montserrat fw_700 fs_2xl">Leading Medicine</p>
+                        <p class="fc_dark_silver fs_sm ff_Montserrat fw_400 fs_sm mx_345 text-center text-lg-start">
+                            Problems
+                            trying to resolve the
+                            conflict
+                            between
+                            the two major realms of Classical physics:
+                            Newtonian mechanics</p>
+                        <a class="ff_Montserrat fw_700 fc_orange" href="#">Learn More <img
+                                src="/assets/img/png/orange_arrow.png" alt="orange_arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video section -->
+        <div class="mt-5 pt-5 pb-5">
+            <div class="row mt-5 flex-column-reverse flex-lg-row">
+                <div class="col-12 col-lg-6 d-flex justify-content-center pt-lg-0 pt-4">
+                    <div class=" d-flex flex-column justify-content-center align-items-lg-start align-items-center">
+                        <hr class=" our_line">
+                        <p class="fc_volate ff_Montserrat fw_700 fs_2xl">Our Activity </p>
+                        <p class="fc_dark_silver fs_sm ff_Montserrat fw_400 fs_sm mx_345 text-center text-lg-start">
+                            Problems
+                            trying to resolve the
+                            conflict
+                            between
+                            the two major realms of Classical physics:
+                            Newtonian mechanics</p>
+                        <a class="ff_Montserrat fw_700 fc_orange" href="#">Learn More <img
+                                src="/assets/img/png/orange_arrow.png" alt="orange_arrow"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center"><img class="img-fluid"
+                        src="/assets/img/png/video.png" alt="video"></div>
+            </div>
+        </div>
+    </div>
+    <!-- blue box -->
+    <div class="bg_dark pb-5 pt-5">
+        <div class="container pb-5 pt-5">
+            <div class="pt-5">
+                <p class="fw_700 ff_Montserrat fs_sm fc_orange text-center text-md-start">Practice Advice</p>
+                <p class="fc_white ff_Montserrat fw_700 fs_2xl text-center text-md-start">Our Doctors Specialize in you
+                </p>
+                <p class="fw_400 ff_Montserrat fs_sm fc_white mb-5 text-center text-md-start">Problems trying to resolve
+                    the conflict between <br>
+                    the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="row pb-sm-5">
+                <!-- doctor box 1 -->
+                <div class="col-xl-4 col-md-6 col-12 p-2 position-relative">
+                    <a class="sale_button position-absolute sale_position bg_lignt_orange fc_white d-flex justify-content-center"
+                        href="#">Sale</a>
+                    <div class=" image_tab p-2 d-flex justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a class="d-flex align-items-end mt-4" href="#"> <img class="img-fluid me-3"
+                                    src="/assets/img/png/like.png" alt="like"></a>
+                            <a class="d-flex align-items-end" href="#"> <img class="img-fluid me-3"
+                                    src="/assets/img/png/basket.png" alt="basket"></a>
+                            <a class="d-flex align-items-end" href="#"> <img class="img-fluid"
+                                    src="/assets/img/png/eye.png" alt="eye"></a>
+                        </div>
+                    </div>
+                    <div class="bg_white p-4 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="ff_Montserrat fw_700 fc_blue fs_sm">Best dental surgeons</p>
+                            <div class="star_button d-flex justify-content-center align-items-center bg_dark">
+                                <img src="/assets/img/png/star.png" alt="star">
+                                <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_white">4.9</p>
+                            </div>
+                        </div>
+                        <p class="ff_Montserrat fw_700 fs_md fc_volate">Cancer Care</p>
+                        <p class="ff_Montserrat fw_400  pr_30_xl_min fs_sm fc_dark_silver">We focus on ergonomics and
+                            meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid " src="/assets/img/png/dowloas.png" alt="dowloas">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm ps-2 fc_dark_silver">15 Sales</p>
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm ps-2 fc_dark_silver">15 Sales</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_md fc_dark_silver">$16.48</p>
+                            <p class="mb-0 ff_Montserrat fw_700 fs_md ps-3 fc_blue">$6.48</p>
+                        </div>
+                        <div class="d-none d-sm-block">
+                            <div class="d-flex align-items-center mt-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="/assets/img/png/clock.png" alt="clock">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">22hr 30min</p>
+                                </div>
+                                <div class="d-flex align-items-center ms-3">
+                                    <img src="/assets/img/png/lesson.png" alt="lesson">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">64 Lessons</p>
+                                </div>
+                                <div class="d-flex align-items-center ms-3">
+                                    <img src="/assets/img/png/progress.png" alt="progress">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">Progress</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="d-flex mb-2 ff_Montserrat fc_blue fw_700 learn_button justify-content-center mt-4 align-items-center"
+                            href="#">Learn More<span class="ps-2"><img class="img-fluid"
+                                    src="/assets/img/png/blue_arrow.png" alt="blue_arrow"></span></a>
+                    </div>
+                </div>
+                <!-- box 2 -->
+                <div class="col-xl-4 col-md-6 col-12 p-2 position-relative">
+                    <a class="sale_button position-absolute sale_position bg_lignt_orange fc_white d-flex justify-content-center"
+                        href="#">Sale</a>
+                    <div class=" image_tab_2 p-2 d-flex justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a class="d-flex align-items-end mt-4" href="#"> <img class="img-fluid me-3"
+                                    src="/assets/img/png/like.png" alt="like"></a>
+                            <a class="d-flex align-items-end" href="#"> <img class="img-fluid me-3"
+                                    src="/assets/img/png/basket.png" alt="basket"></a>
+                            <a class="d-flex align-items-end" href="#"> <img class="img-fluid"
+                                    src="/assets/img/png/eye.png" alt="eye"></a>
+                        </div>
+                    </div>
+                    <div class="bg_white p-4 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="ff_Montserrat fw_700 fc_blue fs_sm">Best dental surgeons</p>
+                            <div class="star_button d-flex justify-content-center align-items-center bg_dark">
+                                <img src="/assets/img/png/star.png" alt="star">
+                                <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_white">4.9</p>
+                            </div>
+                        </div>
+                        <p class="ff_Montserrat fw_700 fs_md fc_volate">Cancer Care</p>
+                        <p class="ff_Montserrat fw_400  pr_30_xl_min fs_sm fc_dark_silver">We focus on ergonomics and
+                            meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid " src="/assets/img/png/dowloas.png" alt="dowloas">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm ps-2 fc_dark_silver">15 Sales</p>
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm ps-2 fc_dark_silver">15 Sales</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_md fc_dark_silver">$16.48</p>
+                            <p class="mb-0 ff_Montserrat fw_700 fs_md ps-3 fc_blue">$6.48</p>
+                        </div>
+                        <div class="d-none d-sm-block">
+                            <div class="d-flex align-items-center mt-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="/assets/img/png/clock.png" alt="clock">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">22hr 30min</p>
+                                </div>
+                                <div class="d-flex align-items-center ms-3">
+                                    <img src="/assets/img/png/lesson.png" alt="lesson">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">64 Lessons</p>
+                                </div>
+                                <div class="d-flex align-items-center ms-3">
+                                    <img src="/assets/img/png/progress.png" alt="progress">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">Progress</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="d-flex mb-2 ff_Montserrat fc_blue fw_700 learn_button justify-content-center mt-4 align-items-center"
+                            href="#">Learn More<span class="ps-2"><img class="img-fluid"
+                                    src="/assets/img/png/blue_arrow.png" alt="blue_arrow"></span></a>
+                    </div>
+                </div>
+                <!-- box_3 -->
+                <div class="col-xl-4 col-md-6 col-12 p-2 position-relative">
+                    <a class="sale_button position-absolute sale_position bg_lignt_orange fc_white d-flex justify-content-center"
+                        href="#">Sale</a>
+                    <div class=" image_tab_3 p-2 d-flex justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a class="d-flex align-items-end mt-4" href="#"> <img class="img-fluid me-3"
+                                    src="/assets/img/png/like.png" alt="like"></a>
+                            <a class="d-flex align-items-end" href="#"> <img class="img-fluid me-3"
+                                    src="/assets/img/png/basket.png" alt="basket"></a>
+                            <a class="d-flex align-items-end" href="#"> <img class="img-fluid"
+                                    src="/assets/img/png/eye.png" alt="eye"></a>
+                        </div>
+                    </div>
+                    <div class="bg_white p-4 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="ff_Montserrat fw_700 fc_blue fs_sm">Best dental surgeons</p>
+                            <div class="star_button d-flex justify-content-center align-items-center bg_dark">
+                                <img src="/assets/img/png/star.png" alt="star">
+                                <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_white">4.9</p>
+                            </div>
+                        </div>
+                        <p class="ff_Montserrat fw_700 fs_md fc_volate">Cancer Care</p>
+                        <p class="ff_Montserrat fw_400  pr_30_xl_min fs_sm fc_dark_silver">We focus on ergonomics and
+                            meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid " src="/assets/img/png/dowloas.png" alt="dowloas">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm ps-2 fc_dark_silver">15 Sales</p>
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm ps-2 fc_dark_silver">15 Sales</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_md fc_dark_silver">$16.48</p>
+                            <p class="mb-0 ff_Montserrat fw_700 fs_md ps-3 fc_blue">$6.48</p>
+                        </div>
+                        <div class="d-none d-sm-block">
+                            <div class="d-flex align-items-center mt-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="/assets/img/png/clock.png" alt="clock">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">22hr 30min</p>
+                                </div>
+                                <div class="d-flex align-items-center ms-3">
+                                    <img src="/assets/img/png/lesson.png" alt="lesson">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">64 Lessons</p>
+                                </div>
+                                <div class="d-flex align-items-center ms-3 ">
+                                    <img src="/assets/img/png/progress.png" alt="progress">
+                                    <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_dark_silver ps-1 d-flex">Progress</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="d-flex mb-2 ff_Montserrat fc_blue fw_700 learn_button justify-content-center mt-4 align-items-center"
+                            href="#">Learn More<span class="ps-2"><img class="img-fluid"
+                                    src="/assets/img/png/blue_arrow.png" alt="blue_arrow"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider -->
+    <div class="container pb-5 mt-5 overflow-hidden">
+        <div class="pt-5">
+            <p class="fw_700 ff_Montserrat fs_sm fc_orange text-center text-md-start">Practice Advice</p>
+            <p class="fc_volate ff_Montserrat mb-2 fw_700 fs_2xl text-center text-md-start">See Our Impressions</p>
+            <p class="fw_400 ff_Montserrat fs_sm fc_volate mb-5 text-center text-md-start">Problems trying to resolve
+                the
+                conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics</p>
+        </div>
+        <div class="row slider">
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span><img class="img-fluid" src="/assets/img/png/5_star.png" alt="star"></span>
+                    <p class="ff_Montserrat fw_400 fs_sm fc_dark_silver mx_160 mx_160 pt-3">Slate helps you see
+                        how many more days
+                        you need to work to
+                        reach your financial
+                        goal for the month
+                        and year.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="/assets/img/png/slider_1.png" alt="slider_1">
+                        <div class=" text-start ps-2">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm fc_orange">Regina Miles</p>
+                            <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_volate">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span><img class="img-fluid" src="/assets/img/png/5_star.png" alt="star"></span>
+                    <p class="ff_Montserrat fw_400 fs_sm fc_dark_silver mx_160 mx_160 pt-3">Slate helps you see
+                        how many more days
+                        you need to work to
+                        reach your financial
+                        goal for the month
+                        and year.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="/assets/img/png/slider_2.png" alt="slider_2">
+                        <div class=" text-start ps-2">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm fc_orange">Regina Miles</p>
+                            <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_volate">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span><img class="img-fluid" src="/assets/img/png/5_star.png" alt="star"></span>
+                    <p class="ff_Montserrat fw_400 fs_sm fc_dark_silver mx_160 mx_160 pt-3">Slate helps you see
+                        how many more days
+                        you need to work to
+                        reach your financial
+                        goal for the month
+                        and year.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="/assets/img/png/slider_3.png" alt="slider_3">
+                        <div class=" text-start ps-2">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm fc_orange">Regina Miles</p>
+                            <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_volate">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span><img class="img-fluid" src="/assets/img/png/5_star.png" alt="star"></span>
+                    <p class="ff_Montserrat fw_400 fs_sm fc_dark_silve mx_160 pt-3">Slate helps you see
+                        how many more days
+                        you need to work to
+                        reach your financial
+                        goal for the month
+                        and year.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="/assets/img/png/slider_1.png" alt="slider_1">
+                        <div class=" text-start ps-2">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm fc_orange">Regina Miles</p>
+                            <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_volate">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span><img class="img-fluid" src="/assets/img/png/5_star.png" alt="star"></span>
+                    <p class="ff_Montserrat fw_400 fs_sm fc_dark_silver mx_160 mx_160 pt-3">Slate helps you see
+                        how many more days
+                        you need to work to
+                        reach your financial
+                        goal for the month
+                        and year.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="/assets/img/png/slider_2.png" alt="slider_2">
+                        <div class=" text-start ps-2">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm fc_orange">Regina Miles</p>
+                            <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_volate">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span><img class="img-fluid" src="/assets/img/png/5_star.png" alt="star"></span>
+                    <p class="ff_Montserrat fw_400 fs_sm fc_dark_silver mx_160 mx_160 pt-3">Slate helps you see
+                        how many more days
+                        you need to work to
+                        reach your financial
+                        goal for the month
+                        and year.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="/assets/img/png/slider_3.png" alt="slider_3">
+                        <div class=" text-start ps-2">
+                            <p class="mb-0 ff_Montserrat fw_700 fs_sm fc_orange">Regina Miles</p>
+                            <p class="mb-0 ff_Montserrat fw_400 fs_ss fc_volate">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- input  -->
+    <div class="container pb-5 pt-5">
+        <div class="pt-5">
+            <p class="fw_700 ff_Montserrat fs_sm fc_orange text-center">Newsletter</p>
+            <p class="fc_volate ff_Montserrat mb-sm-2 fw_700 fs_2xl text-center mb-5">JOIN US</p>
+            <p class="fw_700 ff_Montserrat fs_sm fc_dark_silver mb-5 text-center d-none d-sm-block">Problems trying to
+                resolve the
+                conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics</p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="input_box d-flex">
+                <input class="fc_dark_silver ff_Montserrat fw_400 fs_sm border-0 input_bg_color ps-3 h-100 w-100"
+                    type="text" placeholder="Your Email">
+                <a class="subscribe_button bg_lignt_orange ff_Montserrat fc_white fw_400 fs_sm d-flex justify-content-center align-items-center"
+                    href="#">Subscribe</a>
+            </div>
+        </div>
+    </div>
+    <!-- fooetr -->
+    <footer class="bg_dark">
+        <div class="container ">
+            <div class="row pt-5 pb-5">
+                <div class="col-xl-8 col-12">
+                    <div class="row">
+                        <div class="col-md-3 col-6 pb-5 ">
+                            <p class="ff_Montserrat fs_md fw_700 fc_white">Company Info</p>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">About Us</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">Carrier</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">We are hiring</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white ">Blog</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 pb-5 ">
+                            <p class="ff_Montserrat fs_md fw_700 fc_white">Legal</p>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">About Us</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">Carrier</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">We are hiring</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white ">Blog</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 pb-5 ">
+                            <p class="ff_Montserrat fs_md fw_700 fc_white">Features</p>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">Business Marketing</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">User Analytic</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">Live Chat</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white ">Unlimited Support</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 pb-5 ">
+                            <p class="ff_Montserrat fs_md fw_700 fc_white">Resources</p>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">IOS & Android</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">Watch a Demo</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white mb-2">Customers</a>
+                                <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white ">API</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-12">
+                    <p class="ff_Montserrat fs_md fw_700 fc_white">Get In Touch</p>
+                    <div class="d-flex align-items-center justify-content-sm-center justify-content-start pb-3">
+                        <img class="img-fluid" src="/assets/img/png/mobile.png" alt="mobile">
+                        <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white ps-2">(480) 555-0103</a>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-sm-center justify-content-start pb-3">
+                        <img class="img-fluid" src="/assets/img/png/location.png" alt="location">
+                        <a href="#" class="ff_Montserrat fs_ss fw_700 fc_white ps-2">4517 Washington Ave. Manchester,
+                            Kentucky 39495</a>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-sm-center justify-content-start">
+                        <img class="img-fluid" src="/assets/img/png/email.png" alt="email">
+                        <a href="#" class="ff_Montserrat fs_sm fw_700 fc_white ps-2">debra.holt@example.com3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- last section -->
+    <div class="container">
+        <div class="d-flex flex-column flex-sm-row justify-content-between pt-3 pb-4">
+            <a href="#"
+                class="ff_Montserrat fs_sm fw_700 fc_dark_silver ps-2 text-center text-sm-start mb-4 mb-sm-0">Made With
+                Love By Figmaland All Right
+                Reserved</a>
+            <div class="d-flex justify-content-center justify-content-sm-start">
+                <a href="#"><img class="img-fluid" src="/assets/img/png/fb_1.png" alt="fb_1"></a>
+                <a class="ps-3" href="#"><img class="img-fluid " src="/assets/img/png/insta_2.png" alt="insta_2"></a>
+                <a class="ps-3" href="#"><img class="img-fluid" src="/assets/img/png/tweeter_3.png" alt="tweeter_3"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------script------------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script>
+        function navshow() {
+            document.getElementById("show").classList.toggle("left")
+            document.body.classList.toggle("overflowhiden")
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 500,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box !important;
+
+}
+
+.nav_button_padding {
+    padding: 15px 25px;
+}
+
+.overflowhiden {
+    overflow: hidden !important;
+}
+
+.radius_5 {
+    border-radius: 5px;
+}
+
+.mx_345 {
+    max-width: 345px;
+}
+
+.mx_200 {
+    max-width: 200px;
+}
+
+/* .care_box {
+    width: 271px;
+    height: 285px;
+} */
+
+.our_line {
+    width: 94px;
+    height: 7px !important;
+    background: #E74040;
+}
+
+.care_box_shadow {
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.care_box_hr {
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+
+.sale_position {
+    left: 20px;
+    top: 20px;
+}
+
+.image_tab {
+    background-image: url(../img/png/tab_girl.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.image_tab_2 {
+    background-image: url(../img/png/teeth_doctor.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.image_tab_3 {
+    background-image: url(../img/png/smil_girl.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.star_button {
+    padding: 5px !important;
+    gap: 5px;
+    width: 50px;
+    height: 26px;
+    border-radius: 20px;
+}
+
+.sale_button {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 0px 10px;
+    width: 51px;
+    height: 24px;
+    background: #E74040;
+}
+
+
+
+.heart_box {
+    border-radius: 10px;
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.heart_box:hover {
+    background: #DDEEFE;
+}
+
+.mlr-12 {
+    margin-left: -12px !important;
+    margin-right: -12px !important;
+}
+
+.learn_button {
+    border: 2px solid #0061FF;
+    border-radius: 37px;
+    width: 159px;
+    padding: 10px 20px;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+.mx_160 {
+    max-width: 160px;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.input_bg_color {
+    background: #F9F9F9;
+}
+
+input {
+    outline: none !important;
+
+}
+
+.subscribe_button {
+    border: 1px solid #E6E6E6;
+    height: 48px;
+    width: 117px;
+    border-radius: [object Object]px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media (max-width:1200px) {
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: var(--fc-lignt_orange);
+        width: 100%;
+        height: 100vh !important;
+        justify-content: center;
+        transition: 0.9s;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4;
+        z-index: 3 !important;
+    }
+
+    nav ul li {
+        padding-left: 0px;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .line {
+        background-color: #0B132A;
+        padding: 3px 18px;
+        border-radius: 10px;
+        margin-top: 3px;
+        z-index: 3;
+    }
+
+    .nav_button_padding_xl {
+        padding: 0px 25px;
+    }
+}
+
+@media (min-width:1200px) {
+    .header_bg_xl_min {
+        background-image: url(../img/png/header_bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .mx_500_xl_min {
+        max-width: 500px;
+    }
+
+    .w-100-xl-min {
+        width: 100% !important;
+    }
+
+    .pr_30_xl_min {
+        padding-right: 30px;
+    }
+}
+
+@media (min-width:768px) {
+    .mx_160_md {
+        max-width: 160px;
+    }
+
+    .mx_170_md {
+        max-width: 170px;
+    }
+}
+
+@media (min-width:576px) {
+    .input_box {
+        width: 600px;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+    }
+} 
